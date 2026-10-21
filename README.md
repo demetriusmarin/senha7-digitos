@@ -65,7 +65,7 @@ public class ValidaSenhaForte {
 
         while (true) {
 
-            System.out.print("Digite uma senha fictícia: ");
+            System.out.print("Digite uma senha : ");
             String senha = sc.nextLine();
 
             String resultado = avaliarSenha(senha);
